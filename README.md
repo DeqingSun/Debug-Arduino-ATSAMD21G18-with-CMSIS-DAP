@@ -22,11 +22,20 @@ Arduino and debugger are connected with 4 female jumper wires. (3.3V, SWDIO, SWC
 
 ## Step 1, get Blink example working
 
+First you need to make sure if you have installed support for Arduino M0. Go to "Tools"->"Board"->"Boards Manager". Find "Arduino SAMD Boards (32-bit ARM Cortex-M0+)", install it.
+
+![upload firmware](https://github.com/DeqingSun/Debug-Arduino-ATSAMD21G18-with-CMSIS-DAP/raw/master/img/installboard.png)
+
+Now you will be able to select Arduino M0 Pro board. We select "Arduino M0 Pro (Programming Port)" in "Board" and "Atmel EDBG" in "Programmer". Then we click "Burn Bootloader".
+
 ![upload firmware](https://github.com/DeqingSun/Debug-Arduino-ATSAMD21G18-with-CMSIS-DAP/raw/master/img/uploadFirmware.png)
 
+If it doesn't work, try to replug USB. Check your soldering and connection if it still doesn't work.
 
+Open "Blink example" and upload the code. See if you get LED blinking.
 
+![upload blink](https://github.com/DeqingSun/Debug-Arduino-ATSAMD21G18-with-CMSIS-DAP/raw/master/img/arduinoUpload.png)
 
-I'll skip details on how to install board support, select board and upload examples. There are tons of tutorial you can follow. As long as you can upload a Blink example to Arduino Zero, it shows your Arduino, Boards manager, driver, Arduino Zero, are all working properly.
+When you see your LED blinking, that means your Arduino, debugger, connections are all correct.
 
 
