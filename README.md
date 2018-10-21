@@ -60,3 +60,21 @@ Click reload after you finish install.
 
 ![reload Arduino](https://github.com/DeqingSun/Debug-Arduino-ATSAMD21G18-with-CMSIS-DAP/raw/master/img/vscodeReload.png)
 
+## Step 3, Add support for CMSIS-DAP
+
+Quit Vscode (not close the window)
+
+![reload Arduino](https://github.com/DeqingSun/Debug-Arduino-ATSAMD21G18-with-CMSIS-DAP/raw/master/img/vscodeQuit.png)
+
+Open extension folder:
+
+| OS | Path |
+|----|------|
+| Windows | %USERPROFILE%\.vscode\extensions |
+| macOS   | ~/.vscode/extensions |
+| Linux   | ~/.vscode/extensions |
+
+In Mac, open finder, Click "Go"->"Goto Folder"
+
+![gotoFolder](https://github.com/DeqingSun/Debug-Arduino-ATSAMD21G18-with-CMSIS-DAP/raw/master/img/gotoFolder.png)
+
