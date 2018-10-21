@@ -46,4 +46,17 @@ First download VScode from <https://code.visualstudio.com/>
 
 ![download VScode](https://github.com/DeqingSun/Debug-Arduino-ATSAMD21G18-with-CMSIS-DAP/raw/master/img/downloadVScode.png)
 
-Then you install Arduino extension. Click reload after you finish install.
+Enable extensions side bar.
+
+![Enable extensions](https://github.com/DeqingSun/Debug-Arduino-ATSAMD21G18-with-CMSIS-DAP/raw/master/img/vscodeShowExtensions.png)
+
+Look for Arduino extension and install it.
+
+![Install Arduino](https://github.com/DeqingSun/Debug-Arduino-ATSAMD21G18-with-CMSIS-DAP/raw/master/img/vscodeInstallArduino.png)
+
+Then you install Arduino extension. 
+
+Click reload after you finish install.
+
+![reload Arduino](https://github.com/DeqingSun/Debug-Arduino-ATSAMD21G18-with-CMSIS-DAP/raw/master/img/vscodeReload.png)
+
