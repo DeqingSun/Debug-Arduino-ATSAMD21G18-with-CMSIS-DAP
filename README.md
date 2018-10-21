@@ -74,7 +74,26 @@ Open extension folder:
 | macOS   | ~/.vscode/extensions |
 | Linux   | ~/.vscode/extensions |
 
-In Mac, open finder, Click "Go"->"Goto Folder"
+In Mac, open finder, Click "Go"->"Go to Folder"
 
 ![gotoFolder](https://github.com/DeqingSun/Debug-Arduino-ATSAMD21G18-with-CMSIS-DAP/raw/master/img/gotoFolder.png)
+
+Paste path
+
+![gotoFolder](https://github.com/DeqingSun/Debug-Arduino-ATSAMD21G18-with-CMSIS-DAP/raw/master/img/gotoFolderPath.png)
+
+Then you will arrive extension folder
+
+![extension Folder](https://github.com/DeqingSun/Debug-Arduino-ATSAMD21G18-with-CMSIS-DAP/raw/master/img/gotoFolderExtension.png)
+
+Go into the Arduino extension folder -> "misc", you will find a debuggerUsbMapping.json file
+
+![extension Folder](https://github.com/DeqingSun/Debug-Arduino-ATSAMD21G18-with-CMSIS-DAP/raw/master/img/debuggerUsbMappingLocation.png)
+
+Replace that file with the one in this repo.
+
+![extension Folder](https://github.com/DeqingSun/Debug-Arduino-ATSAMD21G18-with-CMSIS-DAP/raw/master/img/replaceJson.png)
+
+The reason we do this step is that: the USB Vid/Pid pair of the CMSIS-DAP debugger is not supported yet. Once the [PR](https://github.com/Microsoft/vscode-arduino/pull/634) is megered into release, we can skip this step.
+
 
