@@ -19,3 +19,14 @@ For debugger, I used a DAPlink debugger from jixin.pro. You may get it from [her
 
 Arduino and debugger are connected with 4 female jumper wires. (3.3V, SWDIO, SWCLK, GND)
 
+
+## Step 1, get Blink example working
+
+![upload firmware](https://github.com/DeqingSun/Debug-Arduino-ATSAMD21G18-with-CMSIS-DAP/raw/master/img/uploadFirmware.png)
+
+
+
+
+I'll skip details on how to install board support, select board and upload examples. There are tons of tutorial you can follow. As long as you can upload a Blink example to Arduino Zero, it shows your Arduino, Boards manager, driver, Arduino Zero, are all working properly.
+
+
