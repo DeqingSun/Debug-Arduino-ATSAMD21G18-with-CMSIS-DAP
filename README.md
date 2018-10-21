@@ -97,3 +97,28 @@ Replace that file with the one in this repo.
 The reason we do this step is that: the USB Vid/Pid pair of the CMSIS-DAP debugger is not supported yet. Once the [PR](https://github.com/Microsoft/vscode-arduino/pull/634) is megered into release, we can skip this step.
 
 
+## Step 4, Open sketch and debug
+
+Open the folder containing the sketch file.
+
+![open Folder](https://github.com/DeqingSun/Debug-Arduino-ATSAMD21G18-with-CMSIS-DAP/raw/master/img/vscodeOpenFolder.png)
+
+Set Board to "Arduino M0 Pro (Programming Port)".
+
+![set board](https://github.com/DeqingSun/Debug-Arduino-ATSAMD21G18-with-CMSIS-DAP/raw/master/img/vscodeSetBoard.png)
+
+Switch to Debug tab, add configuration if you don't have one.
+
+![add config](https://github.com/DeqingSun/Debug-Arduino-ATSAMD21G18-with-CMSIS-DAP/raw/master/img/vscodeAddConfig.png)
+
+Add breakpoints in code.
+
+![add breakpoints](https://github.com/DeqingSun/Debug-Arduino-ATSAMD21G18-with-CMSIS-DAP/raw/master/img/vscodeBreakpoint.png)
+
+Start Debugging
+
+![start debugging](https://github.com/DeqingSun/Debug-Arduino-ATSAMD21G18-with-CMSIS-DAP/raw/master/img/vscodeDebugging.png)
+
+Press the continue button to switch LED
+
+![control debugging](https://github.com/DeqingSun/Debug-Arduino-ATSAMD21G18-with-CMSIS-DAP/raw/master/img/vscodeDebugControl.png)
