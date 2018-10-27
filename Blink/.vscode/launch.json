@@ -36,7 +36,8 @@
             "serverStarted": "Info\\ :\\ [\\w\\d\\.]*:\\ hardware",
             "launchCompleteCommand": "exec-continue",
             "filterStderr": true,
-            "args": []
+            "args": [],
+            "logging": { "trace": false, "traceResponse": false, "engineLogging": false }
         }
     ]
 }
