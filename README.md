@@ -122,3 +122,17 @@ Start Debugging
 Press the continue button to switch LED
 
 ![control debugging](https://github.com/DeqingSun/Debug-Arduino-ATSAMD21G18-with-CMSIS-DAP/raw/master/img/vscodeDebugControl.png)
+
+-----
+## Troubleshoot
+
+If you stop debugging while code is running, openOCD may still keep running. You will not be able to debug again and you may see this error. 
+
+![openocd Error](https://github.com/DeqingSun/Debug-Arduino-ATSAMD21G18-with-CMSIS-DAP/raw/master/img/openOCDerr.png)
+
+The error message doesn't make any sense. Try to type ```pkill openocd``` in terminal to kill running openOCD process.
+
+![kill openocd](https://github.com/DeqingSun/Debug-Arduino-ATSAMD21G18-with-CMSIS-DAP/raw/master/img/killOpenOCD.png)
+
+Then you will be able to debug.
+
