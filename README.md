@@ -109,7 +109,7 @@ Open the folder containing the sketch file, not the sketch file itself.
 
 ![open Folder](https://github.com/DeqingSun/Debug-Arduino-ATSAMD21G18-with-CMSIS-DAP/raw/master/img/vscodeOpenFolder.png)
 
-On the bottom blue bar, click <Select Board Type>
+On the bottom blue bar, click *Select Board Type*
 
 ![Select Board Type](https://github.com/DeqingSun/Debug-Arduino-ATSAMD21G18-with-CMSIS-DAP/raw/master/img/selectBoardType.png)
 
