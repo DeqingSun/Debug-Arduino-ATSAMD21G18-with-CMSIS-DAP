@@ -117,11 +117,11 @@ Set Board to "Arduino M0 Pro (Programming Port)".
 
 ![set board](https://github.com/DeqingSun/Debug-Arduino-ATSAMD21G18-with-CMSIS-DAP/raw/master/img/vscodeSetBoard.png)
 
-Switch to Debug tab, add configuration if you don't have one.
+Switch to Debug tab, add configuration if you don't have one. Select *Arduino* if you are asked in a popup.
 
 ![add config](https://github.com/DeqingSun/Debug-Arduino-ATSAMD21G18-with-CMSIS-DAP/raw/master/img/vscodeAddConfig.png)
 
-Add breakpoints in code.
+Add breakpoints in code. Click on the left side of the line number area. Add breakpoints on ```digitalWrite(LED_BUILTIN, HIGH);``` and ```digitalWrite(LED_BUILTIN, LOW);```. Your line number may be different from mine.
 
 ![add breakpoints](https://github.com/DeqingSun/Debug-Arduino-ATSAMD21G18-with-CMSIS-DAP/raw/master/img/vscodeBreakpoint.png)
 
