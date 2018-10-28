@@ -125,7 +125,7 @@ Add breakpoints in code. Click on the left side of the line number area. Add bre
 
 ![add breakpoints](https://github.com/DeqingSun/Debug-Arduino-ATSAMD21G18-with-CMSIS-DAP/raw/master/img/vscodeBreakpoint.png)
 
-Start Debugging
+Start Debugging. Click on menu bar "Debug"->"Start Debugging"
 
 ![start debugging](https://github.com/DeqingSun/Debug-Arduino-ATSAMD21G18-with-CMSIS-DAP/raw/master/img/vscodeDebugging.png)
 
