@@ -22,7 +22,9 @@ Arduino and debugger are connected with 4 female jumper wires. (3.3V, SWDIO, SWC
 
 ## Step 1, get Blink example working
 
-First you need to make sure if you have installed support for Arduino M0. Go to "Tools"->"Board"->"Boards Manager". Find "Arduino SAMD Boards (32-bit ARM Cortex-M0+)", install it.
+First make sure you are using a new version of Arduino. Get a new version of Arduino IDE from [Arduino website](https://www.arduino.cc/en/Main/Software).
+
+Then you need to make sure if you have installed support for Arduino M0. Go to "Tools"->"Board"->"Boards Manager". Find "Arduino SAMD Boards (32-bit ARM Cortex-M0+)", install it.
 
 ![upload firmware](https://github.com/DeqingSun/Debug-Arduino-ATSAMD21G18-with-CMSIS-DAP/raw/master/img/installboard.png)
 
@@ -32,7 +34,7 @@ Now you will be able to select Arduino M0 Pro board. We select "Arduino M0 Pro (
 
 If it doesn't work, try to replug USB. Check your soldering and connection if it still doesn't work.
 
-Open "Blink example" and upload the code. See if you get LED blinking.
+Open "File"->"Examples"->"01.Basics"->"Blink" and upload the code. See if you get LED blinking.
 
 ![upload blink](https://github.com/DeqingSun/Debug-Arduino-ATSAMD21G18-with-CMSIS-DAP/raw/master/img/arduinoUpload.png)
 
@@ -50,7 +52,7 @@ Enable extensions side bar.
 
 ![Enable extensions](https://github.com/DeqingSun/Debug-Arduino-ATSAMD21G18-with-CMSIS-DAP/raw/master/img/vscodeShowExtensions.png)
 
-Look for Arduino extension and install it.
+Look for Arduino extension (the offical one from Microsoft, not a random person) and install it.
 
 ![Install Arduino](https://github.com/DeqingSun/Debug-Arduino-ATSAMD21G18-with-CMSIS-DAP/raw/master/img/vscodeInstallArduino.png)
 
@@ -66,17 +68,17 @@ Quit Vscode (not close the window)
 
 ![reload Arduino](https://github.com/DeqingSun/Debug-Arduino-ATSAMD21G18-with-CMSIS-DAP/raw/master/img/vscodeQuit.png)
 
-Open extension folder:
+In Mac, open finder, Click "Go"->"Go to Folder"
+
+![gotoFolder](https://github.com/DeqingSun/Debug-Arduino-ATSAMD21G18-with-CMSIS-DAP/raw/master/img/gotoFolder.png)
+
+Open extension folder (you can copy & paste):
 
 | OS | Path |
 |----|------|
 | Windows | %USERPROFILE%\.vscode\extensions |
 | macOS   | ~/.vscode/extensions |
 | Linux   | ~/.vscode/extensions |
-
-In Mac, open finder, Click "Go"->"Go to Folder"
-
-![gotoFolder](https://github.com/DeqingSun/Debug-Arduino-ATSAMD21G18-with-CMSIS-DAP/raw/master/img/gotoFolder.png)
 
 Paste path
 
@@ -86,11 +88,11 @@ Then you will arrive extension folder
 
 ![extension Folder](https://github.com/DeqingSun/Debug-Arduino-ATSAMD21G18-with-CMSIS-DAP/raw/master/img/gotoFolderExtension.png)
 
-Go into the Arduino extension folder -> "misc", you will find a debuggerUsbMapping.json file
+Go into the Arduino extension folder (```vsciot-vscode.vscode-arduino-0.2.22``` at this moment) -> "misc", you will find a debuggerUsbMapping.json file
 
 ![extension Folder](https://github.com/DeqingSun/Debug-Arduino-ATSAMD21G18-with-CMSIS-DAP/raw/master/img/debuggerUsbMappingLocation.png)
 
-Replace that file with the one in this repo.
+Replace that file with the [one](https://raw.githubusercontent.com/DeqingSun/Debug-Arduino-ATSAMD21G18-with-CMSIS-DAP/master/debuggerUsbMapping.json) in this repo.
 
 ![extension Folder](https://github.com/DeqingSun/Debug-Arduino-ATSAMD21G18-with-CMSIS-DAP/raw/master/img/replaceJson.png)
 
@@ -99,7 +101,11 @@ The reason we do this step is that: the USB Vid/Pid pair of the CMSIS-DAP debugg
 
 ## Step 4, Open sketch and debug
 
-Open the folder containing the sketch file.
+Open VScode again. Click "File"->"Open"
+
+![open command](https://github.com/DeqingSun/Debug-Arduino-ATSAMD21G18-with-CMSIS-DAP/raw/master/img/vscodeOpen.png)
+
+Open the folder containing the sketch file, not the sketch file itself.
 
 ![open Folder](https://github.com/DeqingSun/Debug-Arduino-ATSAMD21G18-with-CMSIS-DAP/raw/master/img/vscodeOpenFolder.png)
 
