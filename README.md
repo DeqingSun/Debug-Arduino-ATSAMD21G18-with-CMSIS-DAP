@@ -133,7 +133,9 @@ Press the continue button to switch LED. Click it once, watch the change on your
 
 ![control debugging](https://github.com/DeqingSun/Debug-Arduino-ATSAMD21G18-with-CMSIS-DAP/raw/master/img/vscodeDebugControl.png)
 
+After you finish. Click "Stop" to end debug session.
 
+![end debug](https://github.com/DeqingSun/Debug-Arduino-ATSAMD21G18-with-CMSIS-DAP/raw/master/img/vscodeEndDebug.png)
 
 -----
 ## Troubleshoot
